@@ -48,18 +48,18 @@ forma.faces.push( new THREE.Face3( 3, 6, 2 ) ); // Cara 9
 forma.faces.push( new THREE.Face3( 5, 1, 4 ) ); // Cara 10
 forma.faces.push( new THREE.Face3( 0, 4, 1 ) ); // Cara 11
 
-/*forma.faces.push( new THREE.Face3( 0, 0, 0 ) ); // Cara 12
-forma.faces.push( new THREE.Face3( 0, 0, 0 ) ); // Cara 13
-forma.faces.push( new THREE.Face3( 0, 0, 0 ) ); // Cara 14
-forma.faces.push( new THREE.Face3( 0, 0, 0 ) ); // Cara 15
-forma.faces.push( new THREE.Face3( 0, 0, 0 ) ); // Cara 16
-forma.faces.push( new THREE.Face3( 0, 0, 0 ) ); // Cara 17
-forma.faces.push( new THREE.Face3( 0, 0, 0 ) ); // Cara 18
-forma.faces.push( new THREE.Face3( 0, 0, 0 ) ); // Cara 19
-forma.faces.push( new THREE.Face3( 0, 0, 0 ) ); // Cara 20
-forma.faces.push( new THREE.Face3( 0, 0, 0 ) ); // Cara 21
-forma.faces.push( new THREE.Face3( 0, 0, 0 ) ); // Cara 22
-forma.faces.push( new THREE.Face3( 0, 0, 0 ) ); // Cara 23*/
+forma.faces.push( new THREE.Face3(11, 8, 9 ) ); // Cara 12
+forma.faces.push( new THREE.Face3(11,10, 8 ) ); // Cara 13
+forma.faces.push( new THREE.Face3(10,12, 8 ) ); // Cara 14
+forma.faces.push( new THREE.Face3(10,14,12 ) ); // Cara 15
+forma.faces.push( new THREE.Face3(14,13,12 ) ); // Cara 16
+forma.faces.push( new THREE.Face3(14,15,13 ) ); // Cara 17
+forma.faces.push( new THREE.Face3(15, 9,13 ) ); // Cara 18
+forma.faces.push( new THREE.Face3(15,11, 9 ) ); // Cara 19
+forma.faces.push( new THREE.Face3(15,14,11 ) ); // Cara 20
+forma.faces.push( new THREE.Face3(11,14,10 ) ); // Cara 21
+forma.faces.push( new THREE.Face3(13, 9,12 ) ); // Cara 22
+forma.faces.push( new THREE.Face3( 8,12, 9 ) ); // Cara 23
 
 forma.computeBoundingSphere();
 
