@@ -61,6 +61,19 @@ forma.faces.push( new THREE.Face3(11,14,10 ) ); // Cara 21
 forma.faces.push( new THREE.Face3(13, 9,12 ) ); // Cara 22
 forma.faces.push( new THREE.Face3( 8,12, 9 ) ); // Cara 23
 
+forma.faces.push( new THREE.Face3(18, 3,10 ) ); // Cara 24
+forma.faces.push( new THREE.Face3(18,16, 3 ) ); // Cara 25
+forma.faces.push( new THREE.Face3(16, 7, 3 ) ); // Cara 26
+forma.faces.push( new THREE.Face3(16,17, 7 ) ); // Cara 27
+forma.faces.push( new THREE.Face3(17,14, 7 ) ); // Cara 28
+forma.faces.push( new THREE.Face3(17,19,14 ) ); // Cara 29
+forma.faces.push( new THREE.Face3(19,10,14 ) ); // Cara 30
+forma.faces.push( new THREE.Face3(19,18,10 ) ); // Cara 31
+forma.faces.push( new THREE.Face3(19,17,18 ) ); // Cara 32
+forma.faces.push( new THREE.Face3(18,17,16 ) ); // Cara 33
+forma.faces.push( new THREE.Face3(14,10, 7 ) ); // Cara 34
+forma.faces.push( new THREE.Face3( 3, 7,10 ) ); // Cara 35
+
 forma.computeBoundingSphere();
 
 forma.computeFaceNormals();
