@@ -74,6 +74,19 @@ forma.faces.push( new THREE.Face3(18,17,16 ) ); // Cara 33
 forma.faces.push( new THREE.Face3(14,10, 7 ) ); // Cara 34
 forma.faces.push( new THREE.Face3( 3, 7,10 ) ); // Cara 35
 
+forma.faces.push( new THREE.Face3(26,20,22 ) ); // Cara 36
+forma.faces.push( new THREE.Face3(26,24,20 ) ); // Cara 37
+forma.faces.push( new THREE.Face3(24,21,20 ) ); // Cara 38
+forma.faces.push( new THREE.Face3(24,25,21 ) ); // Cara 39
+forma.faces.push( new THREE.Face3(25,23,21 ) ); // Cara 40
+forma.faces.push( new THREE.Face3(25,27,23 ) ); // Cara 41
+forma.faces.push( new THREE.Face3(27,22,23 ) ); // Cara 42
+forma.faces.push( new THREE.Face3(27,26,22 ) ); // Cara 43
+forma.faces.push( new THREE.Face3(27,25,26 ) ); // Cara 44
+forma.faces.push( new THREE.Face3(26,25,24 ) ); // Cara 45
+forma.faces.push( new THREE.Face3(23,22,21 ) ); // Cara 46
+forma.faces.push( new THREE.Face3(20,21,22 ) ); // Cara 47
+
 forma.computeBoundingSphere();
 
 forma.computeFaceNormals();
@@ -81,7 +94,9 @@ forma.computeFaceNormals();
 var material = new THREE.MeshNormalMaterial();
 
 var malla = new THREE.Mesh( forma, material );
-//malla.rotateX(Math.PI/4);
+malla.rotateX(Math.PI/4);
+malla.rotateX(Math.PI/4);
+malla.rotateX(Math.PI/4);
 
 var escena = new THREE.Scene();
 escena.add( malla );
