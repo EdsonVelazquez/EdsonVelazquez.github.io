@@ -95,7 +95,7 @@ var material = new THREE.MeshNormalMaterial();
 
 var malla = new THREE.Mesh( forma, material );
 malla.rotateX(Math.PI*3/2);
-//malla.rotateZ(Math.PI/8);
+malla.rotateZ(Math.PI/8);
 
 var escena = new THREE.Scene();
 escena.add( malla );
