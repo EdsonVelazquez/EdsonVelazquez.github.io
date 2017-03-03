@@ -4,20 +4,20 @@ var CuerpoFrente = new THREE.SphereGeometry(2);
 var CuerpoMedio = new THREE.SphereGeometry(2);
 var CuerpoAtras = new THREE.SphereGeometry(2);
 
-var PataFrente1 = new THREE.CylinderGeometry(.25, .25, 2);
-var PataFrente2 = new THREE.CylinderGeometry(.25, .25, 2);
-var PataFrente3 = new THREE.CylinderGeometry(.25, .25, 2);
-var PataFrente4 = new THREE.CylinderGeometry(.25, .25, 2);
+var PataFrente1 = new THREE.CylinderGeometry(.25, .25, 1.5);
+var PataFrente2 = new THREE.CylinderGeometry(.25, .25, 1.5);
+var PataFrente3 = new THREE.CylinderGeometry(.25, .25, 1.5);
+var PataFrente4 = new THREE.CylinderGeometry(.25, .25, 1.5);
 
-var PataMedio1 = new THREE.CylinderGeometry(.25, .25, 2);
-var PataMedio2 = new THREE.CylinderGeometry(.25, .25, 2);
-var PataMedio3 = new THREE.CylinderGeometry(.25, .25, 2);
-var PataMedio4 = new THREE.CylinderGeometry(.25, .25, 2);
+var PataMedio1 = new THREE.CylinderGeometry(.25, .25, 1.5);
+var PataMedio2 = new THREE.CylinderGeometry(.25, .25, 1.5);
+var PataMedio3 = new THREE.CylinderGeometry(.25, .25, 1.5);
+var PataMedio4 = new THREE.CylinderGeometry(.25, .25, 1.5);
 
-var PataAtras1 = new THREE.CylinderGeometry(.25, .25, 2);
-var PataAtras2 = new THREE.CylinderGeometry(.25, .25, 2);
-var PataAtras3 = new THREE.CylinderGeometry(.25, .25, 2);
-var PataAtras4 = new THREE.CylinderGeometry(.25, .25, 2);
+var PataAtras1 = new THREE.CylinderGeometry(.25, .25, 1.5);
+var PataAtras2 = new THREE.CylinderGeometry(.25, .25, 1.5);
+var PataAtras3 = new THREE.CylinderGeometry(.25, .25, 1.5);
+var PataAtras4 = new THREE.CylinderGeometry(.25, .25, 1.5);
 
 CuerpoFrente.translate(0,-4,-2);
 CuerpoMedio.translate(0,-4,-5.5);
