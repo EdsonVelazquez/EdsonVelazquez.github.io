@@ -84,6 +84,9 @@ Oruga.merge(PataAtras4M.geometry, PataAtras4M.matrix);
 
 var material = new THREE.MeshNormalMaterial();
 var OrugaM = new THREE.Mesh(Oruga, material);
+OrugaM.rotateY(Math.PI/2);
+//OrugaM.rotateY(Math.PI/4);
+//OrugaM.rotateX(Math.PI/8);
 
 var escena = new THREE.Scene();
 escena.add(OrugaM);
