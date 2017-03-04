@@ -88,8 +88,9 @@ OrugaM.rotateY(Math.PI/2);
 //OrugaM.rotateY(Math.PI/4);
 //OrugaM.rotateX(Math.PI/8);
 
+var material2 = new THREE.MeshBasicMaterial();
 var c = new THREE.Color("rgb(255, 0, 0)");
-material2.color=c
+material2.color = c;
 
 var OrugaM2 = new THREE.Mesh(Oruga, material2);
 OrugaM2.rotateY(Math.PI*3/2);
