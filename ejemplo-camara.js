@@ -32,5 +32,5 @@ var renderizador = new THREE.WebGLRenderer();
 renderizador.setSize( window.innerWidth,
                       window.innerHeight );
                       
-document.body.appendChild( renderizador, domElement );
+document.body.appendChild( renderizador.domElement );
 renderizador.render( escena, camara );
