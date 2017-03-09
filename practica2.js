@@ -13,14 +13,17 @@ var malla=[];
 for(var i=0;i<=4;i++){
   for(var j=0;j<=4;j++){
     malla.push( new THREE.Mesh(forma))
-    forma.translate(2,0,0);
+    //malla.translateX(2);
   }
-  forma.translate(-10,-2,0)
+ // malla.translateX(-10);
+ // malla.translateY(-2);
 }
 //var malla = new THREE.Mesh(forma);
 
 var escena = new THREE.Scene();
 for(var k=0;k<malla.length;k++){
+  malla[k].translateX(k*2);
+  malla[k].translateY(Math.floor(k/5)*2);
   //malla[k].rotateX(Math.PI/2);
   escena.add(malla[k]);
 }
