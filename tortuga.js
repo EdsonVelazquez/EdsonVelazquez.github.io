@@ -36,7 +36,7 @@ Tortuga.merge(PataFDM.geometry, PataFDM.matrix);
 
 var material = new THREE.MeshNormalMaterial();
 var TortugaM = new THREE.Mesh(Tortuga, material);
-TortugaM.rotateY(Math.PI/2);
+//TortugaM.rotateY(Math.PI/2);
 //TortugaM.rotateY(Math.PI/4);
 //TortugaM.rotateX(Math.PI/8);
 
