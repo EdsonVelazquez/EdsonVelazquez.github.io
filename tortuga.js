@@ -1,6 +1,6 @@
 var Cabeza = new THREE.SphereGeometry( 1 );
 
-var Caparazon = new THREE.SphereGeometry( 2, 8, 6, Math.PI/2, Math.PI*3/2 );
+var Caparazon = new THREE.SphereGeometry( 2, 8, 6, 0, Math.PI*3/2 );
 
 var PataFI = new THREE.CylinderGeometry(.4, .25, .8);
 var PataFD = new THREE.CylinderGeometry(.4, .25, .8);
