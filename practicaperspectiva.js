@@ -248,9 +248,9 @@ var camara = new THREE.PerspectiveCamera(campoVision,relacionAspecto,planoCercan
 //camara.rotateX(-Math.PI/2);
 
 //Tercera captura
-camara.position.x = -30;
-camara.position.z = 30;
-camara.position.y = 30;
+camara.position.x = -15;
+camara.position.z = 15;
+camara.position.y = 15;
 camara.rotateY(-Math.PI/4);
 camara.rotateX(-Math.PI/4);
 
