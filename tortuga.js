@@ -7,7 +7,7 @@ var PataFD = new THREE.CylinderGeometry( 0.4, 0.25, 0.8 );
 var PataTI = new THREE.CylinderGeometry( 0.4, 0.25, 0.8 );
 var PataTD = new THREE.CylinderGeometry( 0.4, 0.25, 0.8 );
 
-var Cola = new THREE.ConeGeometry( 0.4, 1.5, 32 );
+var Cola = new THREE.ConeGeometry( 0.4, 1.4, 32 );
 
 Cabeza.translate( 2, 1, 0 );
 
@@ -17,7 +17,7 @@ PataFI.translate(  0.75, -0.4, -0.75 );
 PataFD.translate(  0.75, -0.4,  0.75 );
 
 //Cola.translate( -1.3, 0.7, 0 );
-Cola.translate( 0, 1.5, 0 );
+Cola.translate( 0, 2.2, 0 );
 
 var CabezaM = new THREE.Mesh(Cabeza);
 
