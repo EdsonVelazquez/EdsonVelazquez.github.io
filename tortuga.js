@@ -7,7 +7,7 @@ var PataFD = new THREE.CylinderGeometry( 0.4, 0.25, 0.8 );
 var PataTI = new THREE.CylinderGeometry( 0.4, 0.25, 0.8 );
 var PataTD = new THREE.CylinderGeometry( 0.4, 0.25, 0.8 );
 
-var Cola = new THREE.ConeGeometry( 0.6, 0.9, 32 );
+var Cola = new THREE.ConeGeometry( 0.4, 1.5, 32 );
 
 Cabeza.translate( 2, 1, 0 );
 
@@ -28,6 +28,7 @@ var PataFIM = new THREE.Mesh(PataFI);
 var PataFDM = new THREE.Mesh(PataFD);
 
 var ColaM = new THREE.Mesh(Cola);
+ColaM.rotateZ(Math.PI*3/4);
 
 var Tortuga = new THREE.Geometry();
 
