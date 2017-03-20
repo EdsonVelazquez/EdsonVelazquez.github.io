@@ -16,7 +16,8 @@ PataTD.translate( -0.75, -0.4,  0.75 );
 PataFI.translate(  0.75, -0.4, -0.75 );
 PataFD.translate(  0.75, -0.4,  0.75 );
 
-Cola.translate( -1.3, 0.7, 0 );
+//Cola.translate( -1.3, 0.7, 0 );
+Cola.translate( 0, 1.5, 0 );
 
 var CabezaM = new THREE.Mesh(Cabeza);
 
@@ -28,7 +29,7 @@ var PataFIM = new THREE.Mesh(PataFI);
 var PataFDM = new THREE.Mesh(PataFD);
 
 var ColaM = new THREE.Mesh(Cola);
-ColaM.rotateZ(Math.PI*3/4);
+//ColaM.rotateZ(Math.PI*3/4);
 
 var Tortuga = new THREE.Geometry();
 
