@@ -240,12 +240,19 @@ var planoLejano = 1000;
 var camara = new THREE.PerspectiveCamera(campoVision,relacionAspecto,planoCercano,planoLejano);
 
 //Primera captura
-camara.position.z = 30;
-camara.position.y = 2;
+//camara.position.z = 30;
+//camara.position.y = 2;
 
 //Segunda captura
 //camara.position.y = 25;
 //camara.rotateX(-Math.PI/2);
+
+//Tercera captura
+camara.position.x = -30;
+camara.position.z = 30;
+camara.position.y = 30;
+camara.rotateY(-Math.PI/4);
+camara.rotateX(-Math.PI/4);
 
 var renderizador = new THREE.WebGLRenderer();
 renderizador.setSize(window.innerWidth,window.innerHeight);
