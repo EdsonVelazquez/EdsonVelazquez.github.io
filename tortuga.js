@@ -29,7 +29,7 @@ var PataFIM = new THREE.Mesh(PataFI);
 var PataFDM = new THREE.Mesh(PataFD);
 
 var ColaM = new THREE.Mesh(Cola);
-ColaM.rotateZ(Math.PI*3/8);
+//ColaM.rotateZ(Math.PI*3/8);
 
 var Tortuga = new THREE.Geometry();
 
