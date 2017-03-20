@@ -28,11 +28,12 @@ var PataFIM = new THREE.Mesh(PataFI);
 var PataFDM = new THREE.Mesh(PataFD);
 
 var ColaM = new THREE.Mesh(Cola);
-ColaM.rotateZ(Math.PI/4);
 
 var Tortuga = new THREE.Geometry();
 
 Tortuga.merge(CabezaM.geometry, CabezaM.matrix);
+
+Tortuga.merge(ColaM.geometry, ColaM.matrix);
 
 Tortuga.merge(CaparazonM.geometry, CaparazonM.matrix);
 
@@ -40,8 +41,6 @@ Tortuga.merge(PataTIM.geometry, PataTIM.matrix);
 Tortuga.merge(PataTDM.geometry, PataTDM.matrix);
 Tortuga.merge(PataFIM.geometry, PataFIM.matrix);
 Tortuga.merge(PataFDM.geometry, PataFDM.matrix);
-
-Tortuga.merge(ColaM.geometry, ColaM.matrix);
 
 var material = new THREE.MeshNormalMaterial();
 var TortugaM = new THREE.Mesh(Tortuga, material);
