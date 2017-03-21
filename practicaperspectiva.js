@@ -271,6 +271,7 @@ camara.updateProjectionMatrix();
 
 camara.position.z = 10; */
 
+/* Segunda captura
 camara.left = window.innerWidth / -80;
 camara.right = window.innerWidth / 80;
 camara.top = window.innerHeight / 80;
@@ -280,6 +281,18 @@ camara.far = 100;
 camara.updateProjectionMatrix();
 
 camara.position.z = 10;
+camara.position.y = window.innerWidth / 240; */
+
+camara.left = window.innerWidth / -80;
+camara.right = window.innerWidth / 80;
+camara.top = window.innerHeight / 80;
+camara.bottom = window.innerHeight / -80;
+camara.near = 0.1;
+camara.far = 100;
+camara.updateProjectionMatrix();
+
+camara.position.z = 40;
+camara.position.x = window.innerHeight / 240;
 camara.position.y = window.innerWidth / 240;
 
 var renderizador = new THREE.WebGLRenderer();
