@@ -267,7 +267,7 @@ camara.bottom = window.innerHeight / -2;
 camara.near = 0.1;
 camara.far = 100;
 camara.updateProjectionMatrix();
-camara.zoom = 50;
+camara.zoom = 800;
 
 camara.position.z = 10;
 
