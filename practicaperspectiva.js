@@ -271,15 +271,16 @@ camara.updateProjectionMatrix();
 
 camara.position.z = 10; */
 
-camara.left = window.innerWidth / -100;
-camara.right = window.innerWidth / 100;
-camara.top = window.innerHeight / 100;
-camara.bottom = window.innerHeight / -100;
+camara.left = window.innerWidth / -80;
+camara.right = window.innerWidth / 80;
+camara.top = window.innerHeight / 80;
+camara.bottom = window.innerHeight / -80;
 camara.near = 0.1;
 camara.far = 100;
 camara.updateProjectionMatrix();
 
 camara.position.z = 10;
+camara.position.y = window.innerWidth / 160;
 
 var renderizador = new THREE.WebGLRenderer();
 renderizador.setSize(window.innerWidth,window.innerHeight);
