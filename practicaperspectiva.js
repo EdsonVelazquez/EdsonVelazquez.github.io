@@ -260,10 +260,21 @@ camara.rotateX(-Math.PI/4);
 
 var camara = new THREE.OrthographicCamera();
 
+/* Primera captura
 camara.left = -20;
 camara.right = 20;
 camara.top = 20;
 camara.bottom = -20;
+camara.near = 0.1;
+camara.far = 100;
+camara.updateProjectionMatrix();
+
+camara.position.z = 10; */
+
+camara.left = window.innerWidth / -100;
+camara.right = window.innerWidth / 100;
+camara.top = window.innerHeight / 100;
+camara.bottom = window.innerHeight / -100;
 camara.near = 0.1;
 camara.far = 100;
 camara.updateProjectionMatrix();
