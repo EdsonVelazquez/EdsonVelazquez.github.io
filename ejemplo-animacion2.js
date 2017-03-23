@@ -5,9 +5,9 @@ function listener() {
 }
 
 function pushar(e) {
-  if (e.keyCode === 65)
+  if (e.keyCode === 97)
     camara.position.z++;
-  else if (e.keyCode === 90)
+  else if (e.keyCode === 122)
     camara.position.z--;
 }
 
