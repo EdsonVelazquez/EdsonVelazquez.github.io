@@ -1,3 +1,9 @@
+function listener() {
+	camara.aspect = window.innerWidth / window.innerHeight;
+	camara.updateProjectionMatrix();
+	renderer.setSize( window.innerWidth, window.innerHeight );
+}
+
 function setup() {
 
   escena = new THREE.Scene();
@@ -14,6 +20,10 @@ function setup() {
   
   malla = new THREE.Mesh( new THREE.BoxGeometry( 1, 1, 1 ), new THREE.MeshNormalMaterial() );
   escena.add(malla);
+  
+  var tipoEvento = 'resize';
+  var capturar = false;
+  window.addEventListener( tipoEvento, listener, capturar );
 }
 
 function loop() {
@@ -21,6 +31,7 @@ function loop() {
   
   malla.rotation.x += 0.01;
   malla.rotation.y += 0.01;
+  
   renderer.render( escena, camara );
 }
 
