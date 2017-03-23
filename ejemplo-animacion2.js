@@ -5,11 +5,10 @@ function listener() {
 }
 
 function pushar(e) {
-  if (e.keyCode == 70) {
+  if (e.keyCode == 65)
     camara.position.z++;
-  } else if (e.keyCode == 68) {
+  else if (e.keyCode == 90)
     camara.position.z--;
-  }
 }
 
 function setup() {
@@ -33,8 +32,7 @@ function setup() {
   var capturar = false;
   window.addEventListener( tipoEvento, listener, capturar );
   
-  var tipoEvento2 = 'keypress';
-  window.addEventListener( tipoEvento2, pushar, capturar );
+  window.addEventListener( 'keypress', pushar, false );
 }
 
 function loop() {
