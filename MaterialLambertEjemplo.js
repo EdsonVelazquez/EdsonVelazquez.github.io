@@ -1,10 +1,16 @@
 function setup(){
   var forma = new THREE.BoxGeometry( 1, 1, 1 );
-  var material = new THREE.MeshLambertMaterial({color: '#00cc00'});
+  var material = new THREE.MeshLambertMaterial({color: '#ffffff'});
   malla = new THREE.Mesh( forma, material );
+  
+  var LuzPuntual = new THREE.PointLight(0xCC00CC);
+  LuzPuntual.position.x = 10;
+  LuzPuntual.position.y = 10;
+  LuzPuntual.position.z = 10;
   
   escena = new THREE.Scene();
   escena.add(malla);
+  escena.add(LuzPuntual);
   
   camara = new THREE.PerspectiveCamera();
   camara.position.z = 5;
