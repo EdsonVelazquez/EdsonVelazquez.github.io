@@ -100,9 +100,6 @@ for ( i = -7.5; i <= 7.5; i++ ) {
 		escena.add( cubo );
 		cubo.receiveShadow = true;
 	}
-
-	if ( ContTextura === 0 ) ContTextura = 1;
-	else if ( ContTextura === 1 ) ContTextura = 0;
 }
 
 var pared1 = new THREE.BoxGeometry( 16, 3, 1 );
